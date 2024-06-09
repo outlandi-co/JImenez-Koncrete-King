@@ -1,0 +1,29 @@
+
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.about-content h2 {
+  font-size: 30pt; /* Adjusted font size for headers */
+  color: #faf1f1;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18pt; /* Adjusted font size for paragraphs */
+  line-height: 1.6;
+  color: #afa8a8;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}

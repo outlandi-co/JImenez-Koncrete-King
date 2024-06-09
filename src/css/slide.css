@@ -1,0 +1,34 @@
+.slide-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrollbars */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.each-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity .7s ease-in-out; /* Fade transition */
+}
+
+.each-slide.active {
+  opacity: 80%;
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-container {
+  /* Add your existing styles for slide-container here */
+}
