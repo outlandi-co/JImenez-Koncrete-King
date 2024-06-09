@@ -69,7 +69,7 @@ function Contact() {
         </form>
         <div className="contact-info">
           <p>Phone: <a href="tel:+1234567890">+1 (951) 526-4638</a></p>
-          <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+          <p>Email: <a href="mailto:Hajcocrete@gmail.com">Messge Here!</a></p>
         </div>
       </div>
     </div>
